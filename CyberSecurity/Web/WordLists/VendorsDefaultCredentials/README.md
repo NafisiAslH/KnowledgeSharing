@@ -24,7 +24,7 @@ You can turn the cheat sheet into a cli command and perform search queries for a
 
 ```bash
 # Usage
-➤ python3 creds search tomcat                                                                                                      
+➤ python3 creds.py search tomcat                                                                                                      
 +----------------------------------+------------+------------+
 | Product                          |  username  |  password  |
 +----------------------------------+------------+------------+
