@@ -19,7 +19,7 @@ b) Directory fuzzing not result.</br>
 c) There wasn’t any sign up form to try some bypass ways.</br>
 d) The website was new so there was not any related URLs/info about it.</br>
 So what we can do now?</br>
-![page](./../images/20220511-3.png)
+![page](./../images/20220511-3.jpg)
 </br>&nbsp;
 
 ### 4. Source Code Review 💡
