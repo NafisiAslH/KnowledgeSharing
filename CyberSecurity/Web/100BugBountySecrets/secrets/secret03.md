@@ -3,7 +3,7 @@
 
 ### 1. How does the app pass data?
 parameter or path?
-![sercret03-1.png](./../sercret03-1.png)
+![sercret03-1.png](../images/sercret03-1.png)
 &nbsp;
 
 ### 2. How/Where does app Talk about users?
