@@ -3,31 +3,31 @@
 
 ### 1. How does the app pass data?
 parameter or path?
-![sercret03-1.png](../images/sercret03-1.png)
+![secret03-1.png](../images/secret03-1.png)
 &nbsp;
 
 ### 2. How/Where does app Talk about users?
 Cookie or API Calls?
 uid or username or email or uuid?
-![sercret03-2.png](./sercret03-2.png)
+![secret03-2.png](../images/secret03-2.png)
 &nbsp;
 
 ### 3. Does site have multiple user levels?
 admin, user, viewer, etc...
-![sercret03-3.png](./sercret03-3.png)
+![secret03-3.png](../images/secret03-3.png)
 &nbsp;
 
 ### 4. Has there been past vulns?
-![sercret03-4.png](./sercret03-4.png)
+![secret03-4.png](../images/secret03-4.png)
 &nbsp;
 
 ### 5. How does the app handle?
 XSS? CSRF? Code Injection?
-![sercret03-5.png](./sercret03-5.png)
+![secret03-5.png](../images/secret03-5.png)
 &nbsp;
 
 ### 6. Does site have unique threat model?
-![sercret03-6.png](./sercret03-6.png)
+![secret03-6.png](../images/secret03-6.png)
 &nbsp;
 
 ## Credit
