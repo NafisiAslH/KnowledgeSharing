@@ -32,3 +32,7 @@ XSS? CSRF? Code Injection?
 
 ## Credit
 Based on [Jhaddix](https://docs.google.com/presentation/d/1cMSRVlJJ5de6Pyv-09YgzOGS0OYrP6p7ggGl0f42wmw/edit#slide=id.g89b65a088d_0_8)'s peresentation
+</br>&nbsp;
+
+## Support
+You can Follow [me](https://twitter.com/MeAsHacker_HNA) on twitter or buy me a [Coffee](https://buymeacoffee.com/NafisiAslH)
