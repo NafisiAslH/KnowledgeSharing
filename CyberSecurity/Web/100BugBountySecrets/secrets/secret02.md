@@ -73,4 +73,7 @@ subfinder -d http://vuln.target.com -silent | httpx -silent -follow-redirects -m
 ```
 assetfinder -subs-only http://target.com | httpx -silent -timeout 50 | xargs -I@ sh -c 'gowitness single @' 
 ```
-&nbsp;
+</br>&nbsp;
+
+## Support
+You can Follow [me](https://twitter.com/MeAsHacker_HNA) on twitter or buy me a [Coffee](https://buymeacoffee.com/NafisiAslH)
