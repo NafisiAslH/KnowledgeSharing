@@ -37,3 +37,7 @@ You can turn the cheat sheet into a cli command and perform search queries for a
 
 ## Credit
 Based on [ihebski](https://github.com/ihebski/DefaultCreds-cheat-sheet)'s github page.</br>
+</br>&nbsp;
+
+## Support
+You can Follow [me](https://twitter.com/MeAsHacker_HNA) on twitter or buy me a [Coffee](https://buymeacoffee.com/NafisiAslH)
