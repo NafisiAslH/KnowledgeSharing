@@ -1,4 +1,4 @@
-# RCE via Dependency Confusion
+# How I get RCE via Dependency Confusion 💎
 
 ### 1. Introduction
 Team gave mobile app and website.</br>
