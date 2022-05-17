@@ -45,3 +45,7 @@ We had full control of Panel and successfully hacked it and got $$$ reward for i
 
 ## Credit
 Based on [z.x](https://medium.com/@z.x/how-we-hacked-bypassed-admin-panel-just-by-js-file-eaa773b5cdb4)'s write-up.
+</br>&nbsp;
+
+## Support
+You can Follow [me](https://twitter.com/MeAsHacker_HNA) on twitter or buy me a [Coffee](https://buymeacoffee.com/NafisiAslH)
