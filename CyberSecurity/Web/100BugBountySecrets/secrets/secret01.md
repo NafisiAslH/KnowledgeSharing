@@ -39,4 +39,7 @@
 
 ### 10. bba
 (bba)[https://github.com/ap062/bba] bug bounty automation prerequisites
-&nbsp;
+</br>&nbsp;
+
+## Support
+You can Follow [me](https://twitter.com/MeAsHacker_HNA) on twitter or buy me a [Coffee](https://buymeacoffee.com/NafisiAslH)
