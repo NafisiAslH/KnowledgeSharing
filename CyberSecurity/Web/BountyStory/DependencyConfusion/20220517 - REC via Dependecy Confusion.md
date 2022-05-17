@@ -34,3 +34,8 @@ Within few hours of uploading the packages, I received ping-back with few data l
 
 ## Credit
 Based on [Sm4rty](https://systemweakness.com/rce-via-dependency-confusion-e0ed2a127013)'s write-up.
+</br>&nbsp;
+
+## Support
+You can Follow [me](https://twitter.com/MeAsHacker_HNA) on twitter or buy me a [Coffee](https://buymeacoffee.com/NafisiAslH)
+
