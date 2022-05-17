@@ -17,8 +17,8 @@ URL: /ui/package.json
 ### 3. Dependency Confusion 💡
 Using tool called Confused, I found that “spr-svg-loaders” package was not in npm public repository.</br>
 You can verify the same by going to npm website and searching for the package name.
-![img](./../images/20220517-3.jpg)
-![img](./../images/20220517-4.jpg)
+![img](./../images/20220517-3.png)
+![img](./../images/20220517-4.png)
 </br>&nbsp;
 
 ### 4. I am Evil 😈
