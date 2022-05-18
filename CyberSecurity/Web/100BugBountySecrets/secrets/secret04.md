@@ -1,4 +1,6 @@
 # Dork Tools & Collection Lists
+Top 9 Tools to Automate Work with Dorks ⚔️
++Top 9 Dork Collection that Every Hunter Needs 🗒️
 &nbsp;
 
 ## Tools to automate the work with dorks
