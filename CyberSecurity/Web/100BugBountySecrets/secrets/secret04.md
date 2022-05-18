@@ -3,7 +3,7 @@ Top 9 Tools to Automate Work with Dorks ⚔️ </br>
 +Top 9 Dork Collection that Every Hunter Needs 🗒️
 &nbsp;
 
-## Tools to automate the work with dorks
+## Tools to automate work with dorks
 [Fast-Google-Dorks-Scan](https://github.com/IvanGlinkin/Fast-Google-Dorks-Scan)</br>
 [0xdork](https://github.com/rlyonheart/0xdork)</br>
 [SDorker](https://github.com/TheSpeedX/SDorker)</br>
