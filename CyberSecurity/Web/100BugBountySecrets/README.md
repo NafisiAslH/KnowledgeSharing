@@ -9,6 +9,7 @@ secret | Topic
 **02** | [Bug Bounty with One-Line Bash Scripts](secrets/secret02.md)
 **03** | [6 Questions that Guarantee your Bounty](secrets/secret03.md)
 **04** | [Dork Tools & Collection Lists](secrets/secret04.md)
+**05** | [20 Top Videos to Master Recon 👑](secrets/secret05.md)
 
 
 </br>&nbsp;
