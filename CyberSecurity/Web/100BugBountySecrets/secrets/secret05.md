@@ -13,7 +13,7 @@ Apr 2021</br>
 
 ### 3. Automating Recon with Bash Scripting
 Oct 2019</br>
-[Watch on YouTube](https://www.youtube.com/watch?v=XYLdrh_WXME)</br>
+[Watch on YouTube](https://www.youtube.com/watch?v=Gaf1Z1bwbpY)</br>
 &nbsp;
 
 ### 4. The Bug Hunter's Methodology v4.0 - Recon Edition by @jhaddix
