@@ -7,7 +7,7 @@
 - If this doesn't work, try to change the Referrer header as if you came from the 2FA page.</br>
 &nbsp;
 
-### 2. Sharing unused tokens
+### 2. Sharing Unused Code
 - Check if you can get for your account a token and try to use it to bypass the 2FA in a different account.</br>
 &nbsp;
 
@@ -15,7 +15,7 @@
 - Is the token leaked on a response from the web application?</br>
 &nbsp;
 
-### 4. Password reset function
+### 4. Password Reset Function
 - In almost all web applications the password reset function automatically logs the user into the application after the reset procedure is completed.</br>
 &nbsp;
 
@@ -23,7 +23,7 @@
 - Also, try requesting multiple 2FA codes and see if previously requested Codes expire or not when a new code is requested</br>
 &nbsp;
 
-### 6. Brute force
+### 6. Brute Force
 - There is any limit in the amount of codes that you can try, so you can just brute force it.</br>
 &nbsp;
 
