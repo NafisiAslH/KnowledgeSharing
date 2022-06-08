@@ -4,4 +4,4 @@
 </br>&nbsp;
 
 ## Credit
-[Tarun Koyalwar](https://github.com/sherlocksecurity/VMware-CVE-2022-22954)'s write-up.</br>
+[Tarun Koyalwar](https://infosecwriteups.com/create-your-ultimate-bug-bounty-automation-without-nerdy-bash-skills-part-1-a78c2b109731)'s write-up.</br>
