@@ -3,7 +3,7 @@
 I'm going to reveal a hundred secrets of bug bounty!
 
 -------
-secret | Topic | My Tweet
+Secret | Topic | My Tweet
 ------- | ------- | -------
 **01** | [Top 10 Automatic Recon Tools](secrets/secret01.md) | [#Secret01](https://twitter.com/MeAsHacker_HNA/status/1501457590638845953)
 **02** | [Bug Bounty with One-Line Bash Scripts](secrets/secret02.md) | [#Secret02](https://twitter.com/MeAsHacker_HNA/status/1504009812417331203)
