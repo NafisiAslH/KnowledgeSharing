@@ -12,6 +12,10 @@ Secret | Topic | My Tweet
 **05** | [20 Top Videos to Master Recon 👑](secrets/secret05.md) | [#Secret05](https://twitter.com/MeAsHacker_HNA/status/1528680753449603075)
 **06** | [8 Awesome 2FA Bypass Techniques 🗝️](secrets/secret06.md) | [#Secret06](https://twitter.com/MeAsHacker_HNA/status/1533789947425062914)
 **07** | [7 Security Response Headers Every Security Tester Should Know ⚡️](secrets/secret07.md) | [#Secret07](https://twitter.com/MeAsHacker_HNA/status/1539151506363912193)
+**08** | [Everything you need to know about CSP Header 🔬](secrets/secret08.md) | [#Secret06](https://twitter.com/MeAsHacker_HNA/status/1542136846720929792)
+
+
+
 
 
 </br>&nbsp;
