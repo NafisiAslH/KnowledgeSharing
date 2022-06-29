@@ -31,7 +31,7 @@ Content-Security-Policy: default-src 'self'; script-src https://bhaveshthakur.co
 - ```<img src=image.jpg>``` --> This image will be allowed as image is loading from same domain i.e. bhaveshthakur.com
 - ```<script src=script.js>``` --> This script will be allowed as the script is loading from the same domain i.e. bhaveshthakur.com
 - ```<script src=https://evil.com/script.js>``` --> This script will not-allowed as the script is trying to load from undefined domain i.e. evil.com
-- ```"/><script>alert(1337)</script>``` This will not-allowed on the page.
+- ```"/><script>alert(1337)</script>``` --> This will not-allowed on the page.
 </br>&nbsp;
 
 ### Automatic Analysis
