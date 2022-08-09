@@ -12,7 +12,7 @@ Week | Topic
 **14** | [<ul><li> Solidity Byte Code </li></ul>](weeks/week014.md)
 **15** | [<ul><li> Decentralized Exchange </li></ul>](weeks/week015.md)
 **16** | [<ul><li> Review with Youtube Channel </li></ul>](weeks/week016.md)
-**16** | [<ul><li> Token Standards </li></ul>](weeks/week017.md)
+**17** | [<ul><li> Token Standards </li></ul>](weeks/week017.md)
 
 
 
