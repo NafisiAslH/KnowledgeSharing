@@ -17,12 +17,12 @@ cat urls.txt | wordlistgen | cut -f1 -d "." > wordlist.txt
 $ linkfinder.py -i Target.com -d -o cli | wordlistgen > wordlist.txt
 ```
 ![secret09-2.png](../images/secret09-2.png)
+</br>&nbsp;
 
 ### 3. Using Burp Extension
 [Scavenger](https://github.com/0xDexter0us/Scavenger) is a burp extension to create the wordlist from burp history which can be used for efficient fuzzing.
 ![secret09-3.gif](../images/secret09-3.gif)
-
-
+</br>&nbsp;
 
 ## Credit
 Based on [vamshivaran110](https://medium.com/@vamshivaran110/fuzzing-with-custom-wordlists-bb7a808d943f)'s web page.
