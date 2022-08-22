@@ -1,4 +1,4 @@
-# More Efficient Fuzzing with Target Specific Wordlist ⚒️
+# Fuzzing With Custom Wordlists ⚒️
 &nbsp;
 
 
