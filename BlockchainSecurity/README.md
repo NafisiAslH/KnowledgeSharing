@@ -13,6 +13,6 @@ Week | Topic
 **15** | [<ul><li> Decentralized Exchange </li></ul>](weeks/week015.md)
 **16** | [<ul><li> Review with Youtube Channel </li></ul>](weeks/week016.md)
 **17** | [<ul><li> Token Standards </li></ul>](weeks/week017.md)
-
+**18 - 19** | [<ul><li> Read ERC20 Standart, Create New Token and Uniswap Liquidity Pool</li></ul>](weeks/week018-19.md)
 
 
