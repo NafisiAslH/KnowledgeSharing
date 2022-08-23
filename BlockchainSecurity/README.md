@@ -5,14 +5,14 @@ This repository contains all the information shared during my Learning Blockchai
 -------
 Week | Topic
 ------- | ---
-**1** | [<ul><li> Introduction to Blockchain </li><li> How to Become a Blockchain Developer </li><li> A Complete Roadmap to Blockchain Development </li></ul>](weeks/week001.md)
-**2 - 5** | [<ul><li> Foundational topics </li></ul>](weeks/week002-5.md)
-**6 - 9** | [<ul><li> Ethereum stack </li></ul>](weeks/week006-9.md)
-**10 - 13** | [<ul><li> Solidity, Blockchain, and Smart Contract Course </li></ul>](weeks/week010-13.md)
-**14** | [<ul><li> Solidity Byte Code </li></ul>](weeks/week014.md)
-**15** | [<ul><li> Decentralized Exchange </li></ul>](weeks/week015.md)
-**16** | [<ul><li> Review with Youtube Channel </li></ul>](weeks/week016.md)
-**17** | [<ul><li> Token Standards </li></ul>](weeks/week017.md)
-**18 - 19** | [<ul><li> Read ERC20 Standart, Create New Token and Uniswap Liquidity Pool</li></ul>](weeks/week018-19.md)
+**1** | [Introduction to Blockchain and Create Roadmap](weeks/week001.md)
+**2 - 5** | [Foundational topics](weeks/week002-5.md)
+**6 - 9** | [Ethereum stack](weeks/week006-9.md)
+**10 - 13** | [Solidity, Blockchain, and Smart Contract Course](weeks/week010-13.md)
+**14** | [Solidity Byte Code](weeks/week014.md)
+**15** | [Decentralized Exchange](weeks/week015.md)
+**16** | [Review with Youtube Channel](weeks/week016.md)
+**17** | [Token Standards](weeks/week017.md)
+**18 - 19** | [Read ERC20 Standart, Create New Token and Uniswap Liquidity Pool](weeks/week018-19.md)
 
 
