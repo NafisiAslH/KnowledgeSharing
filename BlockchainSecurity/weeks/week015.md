@@ -1,4 +1,4 @@
-# Create New ERC20 Token and Uniswap Liquidity Pool
+# Decentralized Exchange
 
 - [Uniswap Whitepaper](https://hackmd.io/@HaydenAdams/HJ9jLsfTz?type=view)
 - [How A Decentralized Exchange Works](https://101blockchains.com/how-a-decentralized-exchange-works/) 
