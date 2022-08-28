@@ -95,7 +95,7 @@ function getWriteupInfo(wrt_xpath) {
     name = name_el.textContent;
     link = getElementByXpath(a_xpath).href.split("?")[0];
     date = getElementByXpath(date_xpath).text
-    return ("<td>" + date + "</td><td><a href=" + link + ">" + name + "</a></td>");
+    return ("<td>" + date + "</td><td><a href=" + link + ">" + name + "</a></td><td><a href=" + link + ">" + link + "</a></td>");
 }
 
 
@@ -159,9 +159,9 @@ async function scrollDown() {
 
 function PrintResults(clp_wrt, emp_wrt) {
     window.document.write("<!DOCTYPE html> <html> <head> <style> table {   font-family: arial, sans-serif;   border-collapse: collapse;}  td, th {   border: 1px solid #dddddd;   text-align: left;   padding: 8px; }  tr:nth-child(even) {   background-color: #dddddd; } </style> </head> <body>")
-    window.document.write("<center><h1>Write-ups with more than 50 Claps</h1><table><tr><th style=\"text-align:center\">Date</th><th style=\"text-align:center\">Name</th></tr>")
+    window.document.write("<center><h1>Write-ups with more than 50 Claps</h1><table><tr><th style=\"text-align:center\">Date</th><th style=\"text-align:center\">Name</th><th style=\"text-align:center\">Link</th></tr>")
     clp_wrt.forEach(function(entry) {window.document.write("<tr>" + entry + "</tr>");});
-    window.document.write("</table></br>&nbsp;</br>&nbsp;<h1> Write-up with less than 50 claps</h1><table><tr><th>Title</th><th>Link</th></tr>")
+    window.document.write("</table></br>&nbsp;</br>&nbsp;<h1> Write-up with less than 50 claps</h1><table><tr><th style=\"text-align:center\">Date</th><th style=\"text-align:center\">Name</th><th style=\"text-align:center\">Link</th></tr>")
     emp_wrt.forEach(function(entry) {window.document.write("<tr>" + entry + "</tr>");});
     window.document.write("</table><br><br><br><h3>Author: NafisiAslH </h3> <a href=https://twitter.com/MeAsHacker_HNA>Twitter</a> <a href=https://github.com/NafisiAslH/KnowledgeSharing>Github</a></center>")
 }
