@@ -3,16 +3,16 @@
 ### 1. Found XSS
 - found login page in /account/?jid=77877
 - `jid` parameter has no validation
-![20220830-1.png](../images/20220830-1.png)
+![20220830-1.png](../../images/20220830-1.png)
 <br>&nbsp;
 
 ### 2. Escalate it to account takeover
-![20220830-2.png](../images/20220830-2.png)
+![20220830-2.png](../../images/20220830-2.png)
 <br>&nbsp;
 
 ### 3. Get user & pass
 - Used Burb Collaborator
-![20220830-3.png](../images/20220830-3.png)
+![20220830-3.png](../../images/20220830-3.png)
 <br>&nbsp;
 
 ## Credit
