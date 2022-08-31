@@ -5,8 +5,8 @@
 ### 3. Use SSRF payload in GET
 ### 4. Enjoy🥳
 ![20220901-1.png](../../images/20220901-1.png)
-![20220901-2.png](../../images/20220901-2.png)
-![20220901-3.png](../../images/20220901-3.png)
+![20220901-2.jpeg](../../images/20220901-2.jpeg)
+![20220901-3.jpeg](../../images/20220901-3.jpeg)
 </br>&nbsp;
 
 ## Credit
