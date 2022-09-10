@@ -24,6 +24,8 @@ No | Resources | Twitter | Website | | No | Resources | Twitter | Website
 **37** |  Securibee | [Twitter](https://twitter.com/securibee) | [Website](https://securib.ee/) | # | **38** |  Twitter | [Twitter]() | [Website](https://twitter.com/?lang=en)
 **39** |  threatABLE | [Twitter](https://twitter.com/threatable) | [Website](https://www.threatable.io/)
 
+<br><h1> Detailts: <a href=https://github.com/NafisiAslH/KnowledgeSharing>https://github.com/NafisiAslH/KnowledgeSharing/</a></h1>
+
 
 ## Credit
 Based on [Rajeev Ranjan](https://medium.com/@rajeevranjancom/39-cybersecurity-news-resources-3ecc86ae6124)'s write-up.
