@@ -1,17 +1,24 @@
 async  function run() {
     if (detectDayOrMonth() == true)
-        [clp_wrt, emp_wrt] = await extractWriteupsInDay();
+        [clp_wrts, emp_wrts] = await extractWriteupsInDay();
     else
-        [clp_wrt, emp_wrt] = await extractWriteupsInMonth();
+        [clp_wrts, emp_wrts] = await extractWriteupsInMonth();
 
-    PrintResults(clp_wrt, emp_wrt);
+    OpenLinks(clp_wrts);
+    PrintResults(emp_wrts);
 }
 
 
+// true for day
+function detectDayOrMonth() {
+    link = window.location.href;
+    return link.split("/")[link.split("/").length-3].startsWith("202")
+}
+
 
 async  function extractWriteupsInDay() {
-    clp_wrt = [];
-    emp_wrt = [];
+    clp_wrts = [];
+    emp_wrts = [];
     base_wrt_xpath = "/html/body/div[1]/div[2]/div/div[3]/div/div/div[2]/div[2]/div[NUMNUM]"
 
     while (true) {
@@ -24,9 +31,9 @@ async  function extractWriteupsInDay() {
             if (clap_num == -1)
                 break;
             if (clap_num > 50)
-                clp_wrt.push(getWriteupInfo(wrt_xpath));
+                clp_wrts.push(getWriteupInfo(wrt_xpath));
             else
-                emp_wrt.push(getWriteupInfo(wrt_xpath));
+                emp_wrts.push(getWriteupInfo(wrt_xpath));
         }
         
         finish = redirectToNextDay()
@@ -35,13 +42,13 @@ async  function extractWriteupsInDay() {
             break;
     }
 
-    return [clp_wrt, emp_wrt];
+    return [clp_wrts, emp_wrts];
 }
 
 
 async  function extractWriteupsInMonth() {
-    clp_wrt = [];
-    emp_wrt = [];
+    clp_wrts = [];
+    emp_wrts = [];
     base_wrt_xpath = "/html/body/div[1]/div[2]/div/div[3]/div/div/div[2]/div[2]/div[NUMNUM]"
     
     await sortLatest();
@@ -55,20 +62,44 @@ async  function extractWriteupsInMonth() {
         if (clap_num == -1)
             break;
         if (clap_num > 50)
-            clp_wrt.push(getWriteupInfo(wrt_xpath));
+            clp_wrts.push(getWriteupInfo(wrt_xpath));
         else
-            emp_wrt.push(getWriteupInfo(wrt_xpath));
+            emp_wrts.push(getWriteupInfo(wrt_xpath));
     }
 
-    return [clp_wrt, emp_wrt];
+    return [clp_wrts, emp_wrts];
 }
 
 
-// true for day
-function detectDayOrMonth() {
-    link = window.location.href;
-    return link.split("/")[link.split("/").length-3].startsWith("202")
+function PrintResults(wrts) {
+    window.document.write("<!DOCTYPE html> <html> <head> <style> table {   font-family: arial, sans-serif;   border-collapse: collapse;}  td, th {   border: 1px solid #dddddd;   text-align: left;   padding: 8px; }  tr:nth-child(even) {   background-color: #dddddd; } </style> </head> <body>")
+    window.document.write("<center><h1> Write-up with less than 50 claps</h1><table><tr><th style=\"text-align:center\">Date</th><th style=\"text-align:center\">Name</th></tr>")
+    wrts.forEach(function(wrt) {window.document.write("<tr>" + "<td>" + wrt.date + "</td><td><a href=" + wrt.link + ">" + wrt.name + "</a></td>" + "</tr>");});
+    window.document.write("</table><br><br><br><h3>Author: NafisiAslH </h3> <a href=https://twitter.com/MeAsHacker_HNA>Twitter</a> <a href=https://github.com/NafisiAslH/KnowledgeSharing>Github</a></center>")
 }
+
+
+function OpenLinks(wrts) {
+    wrts.forEach( wrt => {
+        window.open(wrt.link, '_blank')
+    })
+    
+}
+
+
+function getClapNumber(wrt_xpath) {
+    wrt = getElementByXpath(wrt_xpath);
+    if (wrt == null)
+        return -1;
+    
+    btn_xpath = wrt_xpath + "/div/div/div[4]/div[1]/div/span/button";
+    btn = getElementByXpath(btn_xpath);
+    
+    if (btn == null)
+        return 0;
+    return btn.textContent;
+}
+
 
 function getWriteupInfo(wrt_xpath) {
     name_xpath1 = wrt_xpath + "/div/div/div[2]/a/div/section/div[2]/div/h3";
@@ -95,28 +126,15 @@ function getWriteupInfo(wrt_xpath) {
     name = name_el.textContent;
     link = getElementByXpath(a_xpath).href.split("?")[0];
     date = getElementByXpath(date_xpath).text
-    return ("<td>" + date + "</td><td><a href=" + link + ">" + name + "</a></td><td><a href=" + link + ">" + link + "</a></td>");
+
+    return {name:name, date:date, link:link};
 }
 
-
-function getClapNumber(wrt_xpath) {
-    wrt = getElementByXpath(wrt_xpath);
-    if (wrt == null)
-        return -1;
-    
-    btn_xpath = wrt_xpath + "/div/div/div[4]/div[1]/div/span/button";
-    btn = getElementByXpath(btn_xpath);
-    
-    if (btn == null)
-        return 0;
-    return btn.textContent;
-}
 
 
 function redirectToNextDay() {
     url = location.href;
     
-    console.log("HERE")
     next_day_btn_xpath1 = "/html/body/div[1]/div[2]/div/div[3]/div/div/div[2]/div[3]/div[2]/a"
     next_day_btn_xpath2 = "/html/body/div[1]/div[2]/div/div[3]/div/div/div[2]/div[3]/div/a"
     
@@ -149,6 +167,7 @@ async function sortLatest() {
 
 }
 
+
 async function scrollDown() {
     for (let i=0; i<10; i++) {
         window.scrollTo(0, document.body.scrollHeight);
@@ -157,19 +176,8 @@ async function scrollDown() {
 }
 
 
-function PrintResults(clp_wrt, emp_wrt) {
-    window.document.write("<!DOCTYPE html> <html> <head> <style> table {   font-family: arial, sans-serif;   border-collapse: collapse;}  td, th {   border: 1px solid #dddddd;   text-align: left;   padding: 8px; }  tr:nth-child(even) {   background-color: #dddddd; } </style> </head> <body>")
-    window.document.write("<center><h1>Write-ups with more than 50 Claps</h1><table><tr><th style=\"text-align:center\">Date</th><th style=\"text-align:center\">Name</th><th style=\"text-align:center\">Link</th></tr>")
-    clp_wrt.forEach(function(entry) {window.document.write("<tr>" + entry + "</tr>");});
-    window.document.write("</table></br>&nbsp;</br>&nbsp;<h1> Write-up with less than 50 claps</h1><table><tr><th style=\"text-align:center\">Date</th><th style=\"text-align:center\">Name</th><th style=\"text-align:center\">Link</th></tr>")
-    emp_wrt.forEach(function(entry) {window.document.write("<tr>" + entry + "</tr>");});
-    window.document.write("</table><br><br><br><h3>Author: NafisiAslH </h3> <a href=https://twitter.com/MeAsHacker_HNA>Twitter</a> <a href=https://github.com/NafisiAslH/KnowledgeSharing>Github</a></center>")
-}
-
-
 function getElementByXpath(path) {
       return document.evaluate(path, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
 }
 
 run()
-
