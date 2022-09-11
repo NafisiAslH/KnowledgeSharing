@@ -18,8 +18,6 @@ No | Extenstion | Description | Firefox | Chrome
 **12** | Temp mail | Provides temporary, secure, anonymous, free, disposable email address. | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/temp-mail/) | [Chrome](https://chrome.google.com/webstore/detail/temp-mail-disposable-temp/inojafojbhdpnehkhhfjalgjjobnhomj?hl=en)
 **13** | Wappalyzer | Identifies technologies on websites, such as CMS, web frameworks, ecommerce platforms, JS libraries, analytics tools and more. | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/) | [Chrome](https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg)
 
-<h1> Details: <a href=https://github.com/NafisiAslH/KnowledgeSharing>https://github.com/NafisiAslH/KnowledgeSharing</a></h1>
-
 ## Credit
 Based on [p1boom](https://www.p1boom.com/2022/02/top25-browser-extensions-for-hacker.html)'s page.
 Based on [Sagar Sajeev](https://sagarsajeev.medium.com/browser-extensions-which-have-landed-28ea451d531c)'s page.
