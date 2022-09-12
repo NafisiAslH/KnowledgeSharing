@@ -1,13 +1,13 @@
 # What would I do if I start bug hunting from 0 again? 💀
 
 ### 1. I will start with youtube videos
-- InsiderPhD: She explains everything very well. Start watching from her first video.
-- FarahHawa: Watch every video of her.
+- [InsiderPhD](https://www.youtube.com/c/InsiderPhD/videos): She explains everything very well. Start watching from her first video.
+- [FarahHawa](https://www.youtube.com/c/FarahHawa/videos): Watch every video of her.
 - Nahamsec: Watch every video of ben. and take notes
 
 ### 2. Practice
-- Complete portswigger labs.
-- You can watch solution videos as well.
+- Complete [portswigger](https://portswigger.net/web-security) labs.
+- You can watch [solution](https://www.youtube.com/user/Michael10Sommer) videos as well.
 
 ### 3. Read
 - Read hackerone disclose [reports](https://hackerone.com/hacktivity).
@@ -15,7 +15,7 @@
 
 ### 4. Tools
 - So What I will do is spend a lot of time reading tools readme.md (how the tool works, what are flags)
-- I will check every single bug-byte blog post to find tools.
+- I will check every single [bug-byte](https://blog.intigriti.com/category/bugbytes/) blog post to find tools.
 
 ### 5. Pick the target
 - If you are interested in testing XSS, Go for the wide-scope target.
