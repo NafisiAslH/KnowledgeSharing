@@ -35,7 +35,7 @@
 <br>&nbsp;
 
 ## Credit
-Based on [Rajeev Ranjan](https://medium.com/@rajeevranjancom/39-cybersecurity-news-resources-3ecc86ae6124)'s write-up.
+Based on [Mohsin khan](https://mokhansec.medium.com/what-would-i-do-if-i-start-bug-hunting-from-0-again-79c7fa78b789)'s write-up.
 <br>&nbsp;
 
 ## Support
