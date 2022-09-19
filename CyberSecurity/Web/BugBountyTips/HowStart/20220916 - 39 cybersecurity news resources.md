@@ -1,4 +1,4 @@
-# 39 Cybersecurity News Resources
+# 40 Cybersecurity News Resources
 
 -------
 No | Resources | Twitter | Website | | No | Resources | Twitter | Website
@@ -22,7 +22,7 @@ No | Resources | Twitter | Website | | No | Resources | Twitter | Website
 **33** |  TaoSecurity | [Twitter](https://twitter.com/taosecurity) | [Website](https://www.taosecurity.com/) | # | **34** |  Reddit | [Twitter](https://twitter.com/Reddit) | [Website](https://www.redditinc.com/)
 **35** |  All InfoSec News | [Twitter](https://twitter.com/infosecnews_) | [Website](https://allinfosecnews.com/) | # | **36** |  CVE Trends | [Twitter](https://twitter.com/CVEtrends) | [Website](https://cvetrends.com/)
 **37** |  Securibee | [Twitter](https://twitter.com/securibee) | [Website](https://securib.ee/) | # | **38** |  Twitter | [Twitter]() | [Website](https://twitter.com/?lang=en)
-**39** |  threatABLE | [Twitter](https://twitter.com/threatable) | [Website](https://www.threatable.io/)
+**39** |  threatABLE | [Twitter](https://twitter.com/threatable) | [Website](https://www.threatable.io/)| # | **40** |  Security Architecture | [Twitter](https://twitter.com/secarchpodcast) | [Website](https://www.security-architecture.org/)
 
 <br>
 
