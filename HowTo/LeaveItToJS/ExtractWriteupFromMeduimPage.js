@@ -4,7 +4,7 @@ async  function run() {
     else
         [clp_wrts, emp_wrts] = await extractWriteupsInMonth();
 
-    OpenLinks(clp_wrts);
+    //OpenLinks(clp_wrts);
     PrintResults(emp_wrts);
 }
 
@@ -72,7 +72,13 @@ async  function extractWriteupsInMonth() {
 
 
 function PrintResults(wrts) {
-    window.document.write("<!DOCTYPE html> <html> <head> <style> table {   font-family: arial, sans-serif;   border-collapse: collapse;}  td, th {   border: 1px solid #dddddd;   text-align: left;   padding: 8px; }  tr:nth-child(even) {   background-color: #dddddd; } </style> </head> <body>")
+    window.document.write("<!DOCTYPE html> <html> <head>")
+    window.document.write("<style> table {font-family: arial, sans-serif; border-collapse: collapse;}  td, th {border: 1px solid #dddddd; text-align: left; padding: 8px;}  tr:nth-child(even) {background-color: #dddddd;} </style>")
+    window.document.write("</head> <body>")
+    window.document.write("<script>function OpenLinks() {")
+    wrts.forEach(function(wrt) {window.document.write("window.open('" + wrt.link + "', '_blank');")});
+    window.document.write("}</script>")
+    window.document.write("<center><h1> Write-up with more than 50 claps</h1><button onclick=OpenLinks()>Open Links</button>")
     window.document.write("<center><h1> Write-up with less than 50 claps</h1><table><tr><th style=\"text-align:center\">Date</th><th style=\"text-align:center\">Name</th></tr>")
     wrts.forEach(function(wrt) {window.document.write("<tr>" + "<td>" + wrt.date + "</td><td><a href=" + wrt.link + ">" + wrt.name + "</a></td>" + "</tr>");});
     window.document.write("</table><br><br><br><h3>Author: NafisiAslH </h3> <a href=https://twitter.com/MeAsHacker_HNA>Twitter</a> <a href=https://github.com/NafisiAslH/KnowledgeSharing>Github</a></center>")
