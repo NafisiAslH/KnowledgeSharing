@@ -19,9 +19,9 @@ async function DayProcessing() {
         if (clap_num == -1)
             break;
         if (clap_num > 50)
-            clp_wrts.push(GetWriteupInfo(wrt_xpath));
+            clp_wrts.push(await GetWriteupInfo(wrt_xpath));
         else
-            emp_wrts.push(GetWriteupInfo(wrt_xpath));
+            emp_wrts.push(await GetWriteupInfo(wrt_xpath));
     }
 
     console.log("writeups is procssed.");
@@ -37,7 +37,7 @@ async  function MonthlyTagProcessing() {
     console.log("MonthlyTagProcessing is started");
     clp_wrts = [];
     emp_wrts = [];
-    base_wrt_xpath = "/html/body/div[1]/div[2]/div/div[3]/div/div/div[2]/div[2]/div[NUMNUM]";
+    base_wrt_xpath = "/html/body/div[1]/div[2]/div/div[3]/div/div/div[2]/div[2]/div[NUMNUM]";   
     
     await SortLatest();
     await ScrollDown();
@@ -50,9 +50,9 @@ async  function MonthlyTagProcessing() {
         if (clap_num == -1)
             break;
         if (clap_num > 50)
-            clp_wrts.push(GetWriteupInfo(wrt_xpath));
+            clp_wrts.push(await GetWriteupInfo(wrt_xpath));
         else
-            emp_wrts.push(GetWriteupInfo(wrt_xpath));
+            emp_wrts.push(await GetWriteupInfo(wrt_xpath));
     }
 
     console.log("writeups is procssed.");
@@ -87,27 +87,27 @@ function GetClapNumber(wrt_xpath) {
 }
 
 
-function GetWriteupInfo(wrt_xpath) {
-    name_xpath1 = wrt_xpath + "/div/div/div[2]/a/div/section/div[2]/div/h3";
-    name_xpath2 = wrt_xpath + "/div/div/div[2]/div/section/div/div/a/h3";
-    name_xpath3 = wrt_xpath + "/div/div/div[2]/a/div/section/div[2]/div/p[1]/strong";
-    name_xpath4 = wrt_xpath + "/div/div/div[2]/div/section/div/div/h3/a";
-    name_xpath5 = wrt_xpath + "/div/div/div[2]/a/div/section/div[2]/div/p[1]";
-    name_xpath6 = wrt_xpath + "/div/div/div[2]/div/section/div/div/a/p[1]";
+async function GetWriteupInfo(wrt_xpath) {
+    name_xpaths = [
+        "/div/div/div[2]/a/div/section/div[2]/div/h3",
+        "/div/div/div[2]/div/section/div/div/a/h3",
+        "/div/div/div[2]/a/div/section/div[2]/div/p[1]/strong",
+        "/div/div/div[2]/div/section/div/div/h3/a",
+        "/div/div/div[2]/a/div/section/div[2]/div/p[1]",
+        "/div/div/div[2]/div/section/div/div/a/p[1]",
+        "/div/div/div[2]/a/div/section/div[2]/div/h4",
+        "/div/div/div[2]/div/section/div/div/p"
+    ];
     a_xpath = wrt_xpath + "/div/div/div[2]/a";
     date_xpath = wrt_xpath + "/div/div/div[1]/div/div/div[2]/div/a";
     
-    name_el = GetElementByXpath(name_xpath1);
-    if (name_el == null)
-        name_el = GetElementByXpath(name_xpath2);
-    if (name_el == null)
-        name_el = GetElementByXpath(name_xpath3);
-    if (name_el == null)
-        name_el = GetElementByXpath(name_xpath4);
-    if (name_el == null)
-        name_el = GetElementByXpath(name_xpath5);
-    if (name_el == null)
-        name_el = GetElementByXpath(name_xpath6);
+    name_el = null;
+    for (let i=0; i<name_xpaths.length; i++) {
+        console.log(i);
+        name_el = GetElementByXpath(wrt_xpath + name_xpaths[i]);
+        if (name_el != null)
+            break;
+    }
     
     name = name_el.textContent;
     link = GetElementByXpath(a_xpath).href.split("?")[0];
