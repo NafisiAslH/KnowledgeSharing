@@ -49,13 +49,14 @@ async function DailyTagProcessing(url,end_day=31) {
                 '20','21','22','23','24','25','26','27','28','29',
                 '30','31'];
     day = parseInt(url.substring(url.length-2));
+    base_url = url.substring(0,url.length-2);
     ReleaseIt("day");
 
     for (let i = day; i <= end_day; i++) {
     console.log("Process day: " + days_str[i]);
     await WaitForPreviuosProcessing("day");
 
-        next_url = url.replace(days_str[day],days_str[i]);
+        next_url = base_url + days_str[i];
         win = window.open(next_url);
         await new Promise(r => setTimeout(r, 5000));
         if (win.location != next_url) {
