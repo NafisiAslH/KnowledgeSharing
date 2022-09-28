@@ -14,5 +14,6 @@ Week | Topic
 **16** | [Review with Youtube Channel](weeks/week016.md)
 **17** | [Token Standards](weeks/week017.md)
 **18 - 19** | [Create New ERC20 Token and Uniswap Liquidity Pool](weeks/week018-19.md)
+**20 - 21** | [Token Standards](weeks/week020-21.md)
 
 
