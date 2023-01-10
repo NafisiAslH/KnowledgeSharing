@@ -96,23 +96,31 @@ async function GetWriteupInfo(wrt_xpath) {
         "/div/div/div[2]/a/div/section/div[2]/div/p[1]",
         "/div/div/div[2]/div/section/div/div/a/p[1]",
         "/div/div/div[2]/a/div/section/div[2]/div/h4",
-        "/div/div/div[2]/div/section/div/div/p"
+        "/div/div/div[2]/div/section/div/div/p",
+        "/div/div/div[2]/a/div/section/div[2]/div/h2"
     ];
     a_xpath = wrt_xpath + "/div/div/div[2]/a";
     date_xpath = wrt_xpath + "/div/div/div[1]/div/div/div[2]/div/a";
     
     name_el = null;
     for (let i=0; i<name_xpaths.length; i++) {
-        console.log(i);
+        console.log(wrt_xpath + " : " + i);
         name_el = GetElementByXpath(wrt_xpath + name_xpaths[i]);
         if (name_el != null)
             break;
     }
-    
-    name = name_el.textContent;
-    link = GetElementByXpath(a_xpath).href.split("?")[0];
-    date = GetElementByXpath(date_xpath).text;
 
+    if (name_el == null) {
+        name = "ERROR";
+        date = wrt_xpath;
+        link = window.location.href;
+    }
+    else {
+        name = name_el.textContent;
+        link = GetElementByXpath(a_xpath).href.split("?")[0];
+        date = GetElementByXpath(date_xpath).text;
+    }
+    
     return {name:name, date:date, link:link};
 }
 
