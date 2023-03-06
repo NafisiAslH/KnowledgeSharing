@@ -13,7 +13,10 @@ Secret | Topic | My Tweet
 **06** | [8 Awesome 2FA Bypass Techniques 🗝️](secrets/secret06.md) | [#Secret06](https://twitter.com/MeAsHacker_HNA/status/1533789947425062914)
 **07** | [7 Security Response Headers Every Security Tester Should Know ⚡️](secrets/secret07.md) | [#Secret07](https://twitter.com/MeAsHacker_HNA/status/1539151506363912193)
 **08** | [Everything you need to know about CSP Header 🔬](secrets/secret08.md) | [#Secret08](https://twitter.com/MeAsHacker_HNA/status/1542136846720929792)
-
+**09** | [Fuzzing With Custom Wordlists ⚒️](secrets/secret09.md) | [#Secret09](https://twitter.com/MeAsHacker_HNA/status/1561592256745832449)
+**10** | [How to find Origin IP Automatically 🔭](secrets/secret10.md) | [#Secret10](https://twitter.com/MeAsHacker_HNA/status/1564148263455965184)
+**11** | [13 Browser Extensions that Every Hunter Needs](secrets/secret11.md) | [#Secret11](https://twitter.com/MeAsHacker_HNA/status/1569558995530141696)
+**12** | [Subdomain Enumeration Techniques 🔮](secrets/secret12.md) | [#Secret12]()
 
 
 
