@@ -19,9 +19,7 @@
 ### 8. Use Arjun to find hidden parameter
 `arjun -u https://sub.domain.com/admin/colorpicker_IEPatch.asp`
 
-### 9. 
-
-### 10. Payload: 
+### 9. Payload: 
 `</script><img src=x onerror=alert(document.cookie)>`
 
 
