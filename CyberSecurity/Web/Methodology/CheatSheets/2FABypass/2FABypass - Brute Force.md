@@ -7,7 +7,8 @@ details
 ## Sub Techniques
 ### 1. Lack of Rate Limit
 - See "Rate Limit Bypass" Test
-### 2. Re-send code reset the limit
+### 2. Resend Code
+- Resend function will reset the limit
 
 <br>&nbsp;
 ## References:
