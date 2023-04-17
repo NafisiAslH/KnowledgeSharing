@@ -6,7 +6,7 @@ details
 <br>&nbsp;
 ## Sub Techniques
 ### 1. Lack of Rate Limit
-- See "Rate Limit Bypass" Test
+- See "[Rate Limit Bypass](https://github.com/NafisiAslH/KnowledgeSharing/tree/main/CyberSecurity/Web/Methodology/CheatSheets/RateLimitBypass)"
 ### 2. Resend Code
 - Resend function will reset the limit
 
