@@ -4,7 +4,7 @@
 2. Ways to bypass 403 endpoints (If /path is blocked)
 ```
 /path –> HTTP 403 Forbidden
-/path –> HTTP 200 OK
+/PATH –> HTTP 200 OK
 /path/ –> HTTP 200 OK
 /path/. –> HTTP 200 OK
 //path// –> HTTP 200 OK
