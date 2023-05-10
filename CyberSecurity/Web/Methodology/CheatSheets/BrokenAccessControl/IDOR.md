@@ -41,3 +41,9 @@ details
 ## References:
 [Reference](https://www.aon.com/cyber-solutions/aon_cyber_labs/finding-more-idors-tips-and-tricks/)</br>
 [Reference](https://16521092.medium.com/some-ways-to-find-more-idor-da16c93954e5 )</br>
+
+
+<br>&nbsp;
+## Support
+You can Follow [me](https://twitter.com/MeAsHacker_HNA) on twitter or
+<br><br><a href="https://www.buymeacoffee.com/NafisiAslH" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
