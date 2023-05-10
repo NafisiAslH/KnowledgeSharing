@@ -5,34 +5,38 @@ details
 </br>&nbsp;
 
 ## Sub Techniques
-### 1. Send empty value
+### 1. Use another user's Token
 ```
-details
+cookie: session=SESSION_A;
+token = TOKEN_B
 ```
-### 2. Send null/None value
+### 2. Reuse Token (Check token expiration)
 ```
-details
+First request:
+token = TOKEN
+
+Second request:
+token = TOKEN
 ```
 ### 3. Remove parameter (name and value)
 ```
-details
+remove name and value
 ```
-### 4. Reuse Token (Check token expiration)
+### 4. Send empty value
 ```
-details
-```
-### 5. Send Multiple Value In Array
-```
-details
-```
-### 6. User another user's Token
-```
-details
+token = (empty)
 ```
 ### 7. Modify a few bits
 ```
-details
+origianl token: TOKEN_123456
+forged token: TOKEN_123478
 ```
+### 6. Send null/None value
+```
+token = None
+token = null
+```
+
 
 ## References:
 [Reference](link)</br>
