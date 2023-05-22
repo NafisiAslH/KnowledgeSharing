@@ -1,4 +1,4 @@
-# How to use Burp Suite Like a PRO?
+# How to use Burp Suite Like a PRO? 🚬
 Burp Suite is a powerful tool for web application security testing and one of the most popular tools in the industry.<br>
 By the end of this article, you will have a better understanding of how to leverage Burp Suite’s features to improve your web application security testing skills and find critical vulnerabilities that may have been overlooked.<br>
 Let’s get started!
