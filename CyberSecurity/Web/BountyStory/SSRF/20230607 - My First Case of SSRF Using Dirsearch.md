@@ -18,7 +18,7 @@ I was able to view the AWS Metadata credentials.
 
 <br>&nbsp;
 ## Credit
-Based on [Shrirang Diwakar](https://shrirangdiwakar.medium.com/bypassing-403s-like-a-pro-2-100-broken-access-control-66beef4afa8c)'s writeup.
+Based on [Mba-oji Chiagoziem](https://goziem.medium.com/my-first-case-of-ssrf-using-dirsearch-b916f0f1e94b)'s writeup.
 <br>&nbsp;
 
 ## Support
