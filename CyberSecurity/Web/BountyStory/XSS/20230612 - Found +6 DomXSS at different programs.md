@@ -7,7 +7,7 @@
 
 <br>&nbsp;
 ## Credit
-Based on [Shrirang Diwakar](https://shrirangdiwakar.medium.com/bypassing-403s-like-a-pro-2-100-broken-access-control-66beef4afa8c)'s writeup.
+Based on [adhaamsayed3](https://medium.com/@adhaamsayed3/found-6-domxss-at-different-programs-hacking-swagger-ui-5767c9d6d024)'s writeup.
 <br>&nbsp;
 
 ## Support
