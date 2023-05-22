@@ -21,7 +21,7 @@ $ cat subd.txt | httpx -mc 200 | tee live.txt
 
 <br>&nbsp;
 ## Credit
-Based on [Shrirang Diwakar](https://shrirangdiwakar.medium.com/bypassing-403s-like-a-pro-2-100-broken-access-control-66beef4afa8c)'s writeup.
+Based on [ar_hawk](https://medium.com/@ar_hawk/how-a-simple-directory-listing-leads-to-pii-data-leakage-remote-code-execution-and-many-more-104b09e644f4)'s writeup.
 <br>&nbsp;
 
 ## Support
