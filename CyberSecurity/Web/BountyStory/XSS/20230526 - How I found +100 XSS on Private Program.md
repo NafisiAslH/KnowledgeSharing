@@ -24,7 +24,7 @@ cat filtered_urls.txt | kxss
 
 <br>&nbsp;
 ## Credit
-Based on [Shrirang Diwakar](https://shrirangdiwakar.medium.com/bypassing-403s-like-a-pro-2-100-broken-access-control-66beef4afa8c)'s writeup.
+Based on [jooelsaka](https://medium.com/@jooelsaka/how-i-found-100-reflected-cross-site-scripting-sql-injection-on-an-private-hackerone-bug-bounty-26eef05c9b63)'s writeup.
 <br>&nbsp;
 
 ## Support
