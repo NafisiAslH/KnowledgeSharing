@@ -17,7 +17,7 @@ Secret | Topic | My Tweet
 **10** | [How to find Origin IP Automatically 🔭](secrets/secret10.md) | [#Secret10](https://twitter.com/MeAsHacker_HNA/status/1564148263455965184)
 **11** | [13 Browser Extensions that Every Hunter Needs](secrets/secret11.md) | [#Secret11](https://twitter.com/MeAsHacker_HNA/status/1569558995530141696)
 **12** | [Subdomain Enumeration Techniques 🔮](secrets/secret12.md) | [#Secret12](https://twitter.com/MeAsHacker_HNA/status/1635170395224702976)
-**13** | [Firing 8 Account Takeover Methods 🔥](secrets/secret13.md) | [#Secret13]()
+**13** | [Firing 8 Account Takeover Methods 🔥](secrets/secret13.md) | [#Secret13](https://twitter.com/MeAsHacker_HNA/status/1660658896778698753)
 **14** | [How to use Burp Suite Like a PRO? 🚬](secrets/secret14.md) | [#Secret14]()
 
 
