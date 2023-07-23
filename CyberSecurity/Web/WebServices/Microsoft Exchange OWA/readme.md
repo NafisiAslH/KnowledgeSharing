@@ -80,6 +80,15 @@ CVE-2021-34473 Microsoft Exchange Server Remote Code Execution Vulnerability. Th
 - [Outlook 2FA Bypass](http://www.blackhillsinfosec.com/?p=5396)
 - [Malicious Outlook Rules](https://silentbreaksecurity.com/malicious-outlook-rules/)
 - [Outlook Rules in Action](http://www.blackhillsinfosec.com/?p=5465)
+<br>&nbsp;<br>&nbsp;<br>&nbsp;
+
+
+# Hardening
+- [Securing Microsoft Exchange Server: 8 Best Practices](https://www.blumira.com/secure-microsoft-exchange/)
+- [How to Protect Microsoft Exchange and Outlook Web App Logins](https://rublon.com/blog/how-to-protect-microsoft-exchange-and-outlook-logins/)
+- [8 Essential Microsoft Exchange Online Security Tips and Best Practices](https://www.simeoncloud.com/blog/8-essential-microsoft-exchange-online-security-tips-and-best-practices)
+- [Microsoft Exchange Server Security: The 10 BEst Ways to Secure Your Server](https://www.messageware.com/10-ways-to-secure-your-exchange-server/)
+- [Microsoft Exchange Server Vulnerability Checklist](https://www.proarch.com/blog/microsoft-exchange-server-vulnerability-checklist)
 <br>&nbsp;
 
 ## Credit
