@@ -44,9 +44,9 @@ python3 bruteforce/bruteforce.py -t https://mail.domain.com/EWS/Exchange.asmx -U
 ```python
 python3 atomizer.py owa mail.r-1x.com 'PASSWORD' ../users.txt
 ```
-### Metasploit
+### [Metasploit](https://github.com/rapid7/metasploit-framework)
 The following module can be used for EWS: `lauxiliary/scanner/http/owa_ews_login`
-<br>&nbsp;
+<br>&nbsp;<br>&nbsp;
 
 ## 3. GAL 
 The Microsoft Exchange Global Address List (GAL) is a list of all end users and their respective email addresses within an Exchange Server organization that uses Microsoft Outlook for email.
@@ -63,7 +63,7 @@ GAL/ruler-linux64 --url https://mail.domain.com/autodiscover/autodiscover.xml --
 python3 GAL/ewsManage.py mail.domain.com 443 plaintext DomainName Username Password findallpeopl
 ```
 * for export GAL we should enum valid username,password and email first !
-<br>&nbsp;
+<br>&nbsp;<br>&nbsp;
 
 ## 4. [ProxyLogon](https://github.com/kh4sh3i/ProxyLogon)
 ProxyLogon is the formally generic name for CVE-2021-26855, a vulnerability on Microsoft Exchange Server that allows an attacker bypassing the authentication and impersonating as the admin. We have also chained this bug with another post-auth arbitrary-file-write vulnerability, CVE-2021-27065, to get code execution.
@@ -84,7 +84,8 @@ CVE-2021-34473 Microsoft Exchange Server Remote Code Execution Vulnerability. Th
 
 ## Credit
 Based on [six2dez](https://github.com/six2dez/pentest-book/blob/master/enumeration/webservices/owa.md)'s github page.<br>
-Based on [kh4sh3i](https://github.com/kh4sh3i/exchange-penetration-testing/blob/main/README.md)'s github page.
+Based on [kh4sh3i](https://github.com/kh4sh3i/exchange-penetration-testing/blob/main/README.md)'s github page.<br>
+[Exploring-Microsoft-Exchange-for-penetration-testing-and-redteaming-part-1](https://www.erssec.com/Exploring-Microsoft-Exchange-for-penetration-testing-and-redteaming-part-1/).
 <br>&nbsp;
 
 ## Support
